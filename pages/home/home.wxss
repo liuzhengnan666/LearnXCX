@@ -1,0 +1,10 @@
+.title{
+  color: red;
+}
+.image_test{
+  width: 200px;
+  height: 200px;
+}
+.click_btn{
+  content: 你好;
+}

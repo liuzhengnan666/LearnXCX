@@ -1,6 +1,39 @@
 {
   "pages": [
-    "pages/home/home"
+  
+    "pages/home/home",
+    "pages/user/user_center",
+    "pages/cate/cate"
   ],
-  "sitemapLocation": "sitemap74.json"
+  "sitemapLocation": "sitemap74.json",
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "大元结吉",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabar/home.png",
+        "selectedIconPath": "assets/tabar/home-selected.png"
+      },
+      
+      {
+        "pagePath": "pages/cate/cate", 
+        "text": "分类",
+        "iconPath": "assets/tabar/cate.png",
+        "selectedIconPath": "assets/tabar/cate-selected.png"
+      },
+      {
+        "pagePath": "pages/user/user_center", 
+        "text": "个人中心",
+        "iconPath": "assets/tabar/icon_dynamic.png",
+        "selectedIconPath": "assets/tabar/icon_dynamic_check.png"
+      }
+    ]
+  }
 }

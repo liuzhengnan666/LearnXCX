@@ -4,9 +4,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    name:"你好",
+    students : [
+      {name:"小明",age:18},
+      {name:"小红",age:20},
+      {name:"小绿",age:19}
+    ],
+    count :0
+  },
+  btnCountAdd(){
+   this.setData({
+     count:this.data.count+=1
+   })
   },
 
+  btnCountmin(){
+    this.setData({
+      count:this.data.count-=1
+    })
+   },
   /**
    * 生命周期函数--监听页面加载
    */
